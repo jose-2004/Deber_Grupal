@@ -5,19 +5,19 @@
 - Jans Hilaca
 - David Jimenez
 
-
-## Codigo y Ejecucion
+## Código y Ejecución
 
 Este programa en Java crea una interfaz gráfica que permite seleccionar un año y mostrar los conductores y constructores de Fórmula 1 que participaron en carreras durante ese año. Establece una conexión a una base de datos PostgreSQL y llena un JComboBox con los años disponibles. Cuando se selecciona un año, un SwingWorker ejecuta una consulta SQL en segundo plano para obtener los datos correspondientes, actualizando una JTable y mostrando una barra de progreso durante la carga. La interfaz gráfica incluye un JFrame con un JComboBox para seleccionar el año, una JTable para mostrar los datos y un JProgressBar para indicar el progreso de la carga. Este diseño asegura que la interfaz no se congele durante las consultas, proporcionando una experiencia de usuario fluida.
 
-    import javax.swing.*;
-    import javax.swing.table.DefaultTableCellRenderer;
-    import javax.swing.table.DefaultTableModel;
-    import java.awt.*;
-    import java.sql.*;
-    import java.util.Vector;
+```java
+import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.sql.*;
+import java.util.Vector;
 
-    public class Main {
+public class Main {
     private Connection conn;
     private JFrame frame;
     private JComboBox<String> comboBox;
@@ -198,7 +198,7 @@ Este programa en Java crea una interfaz gráfica que permite seleccionar un año
     public static void main(String[] args) {
         SwingUtilities.invokeLater(Main::new);
     }
-    }
+}
 
 <img src="https://github.com/jose-2004/Deber_Grupal/assets/80079088/521fed9b-d05e-417c-a226-dde20d600b2d" alt="image1" width="800"/>
 
