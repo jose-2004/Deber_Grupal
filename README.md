@@ -200,8 +200,8 @@ Este programa en Java crea una interfaz gráfica que permite seleccionar un año
     }
     }
 
-<img src="https://github.com/jose-2004/Deber_Grupal/assets/80079088/521fed9b-d05e-417c-a226-dde20d600b2d" alt="image1" width="400"/>
+<img src="https://github.com/jose-2004/Deber_Grupal/assets/80079088/521fed9b-d05e-417c-a226-dde20d600b2d" alt="image1" width="800"/>
 
-<img src="https://github.com/jose-2004/Deber_Grupal/assets/80079088/ce8e670d-ae03-45aa-bcee-cd155d4c241b" alt="image2" width="400"/>
+<img src="https://github.com/jose-2004/Deber_Grupal/assets/80079088/ce8e670d-ae03-45aa-bcee-cd155d4c241b" alt="image2" width="800"/>
 
 
