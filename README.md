@@ -1,7 +1,14 @@
 ## Integrantes
+- Jose Medina
+- Jose Ocampo
+- Leandro Muñoz
+- Jans Hilaca
+- David Jimenez
 
 
 ## Codigo y Ejecucion
+
+Este programa en Java crea una interfaz gráfica que permite seleccionar un año y mostrar los conductores y constructores de Fórmula 1 que participaron en carreras durante ese año. Establece una conexión a una base de datos PostgreSQL y llena un JComboBox con los años disponibles. Cuando se selecciona un año, un SwingWorker ejecuta una consulta SQL en segundo plano para obtener los datos correspondientes, actualizando una JTable y mostrando una barra de progreso durante la carga. La interfaz gráfica incluye un JFrame con un JComboBox para seleccionar el año, una JTable para mostrar los datos y un JProgressBar para indicar el progreso de la carga. Este diseño asegura que la interfaz no se congele durante las consultas, proporcionando una experiencia de usuario fluida.
 
     import javax.swing.*;
     import javax.swing.table.DefaultTableCellRenderer;
